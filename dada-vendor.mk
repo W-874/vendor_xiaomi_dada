@@ -8,13 +8,17 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/acdbdata/Fluence/Fluence_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/Fluence_acdb_cal.acdb \
     vendor/xiaomi/dada/proprietary/odm/etc/acdbdata/Fluence/Fluence_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/Fluence_workspaceFileXml.qwsp \
-    vendor/xiaomi/dada/proprietary/odm/etc/audio/audio_module_config_primary.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_module_config_primary.xml \
-    vendor/xiaomi/dada/proprietary/odm/etc/audio/sku_sun/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_sun/adsp_sleep_monitor.conf \
+    vendor/xiaomi/dada/proprietary/odm/etc/audio/mis_head.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head.bin \
+    vendor/xiaomi/dada/proprietary/odm/etc/audio/mis_head_spatial.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head_spatial.bin \
+    vendor/xiaomi/dada/proprietary/odm/etc/audio/mis_spk.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_spk.bin \
+    vendor/xiaomi/dada/proprietary/odm/etc/audio/mis_spk_spatial.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_spk_spatial.bin \
+    vendor/xiaomi/dada/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
+    vendor/xiaomi/dada/proprietary/odm/etc/audio/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaokemix_res.bin \
+    vendor/xiaomi/dada/proprietary/odm/etc/audio/misoundsa_spk_config.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misoundsa_spk_config.bin \
     vendor/xiaomi/dada/proprietary/odm/etc/audio/sku_sun/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_sun/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/dada/proprietary/odm/etc/audio/sku_sun/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_sun/mixer_paths_overlay_static.xml \
     vendor/xiaomi/dada/proprietary/odm/etc/audio/sku_sun/mixer_paths_sun_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_sun/mixer_paths_sun_mtp.xml \
     vendor/xiaomi/dada/proprietary/odm/etc/audio/sku_sun/resourcemanager_sun_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_sun/resourcemanager_sun_mtp.xml \
-    vendor/xiaomi/dada/proprietary/odm/etc/audio/sku_sun_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_sun_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/AIGesture/buling_1s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_1s.png \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/AIGesture/buling_2s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_2s.png \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/AIGesture/buling_3s.png:$(TARGET_COPY_OUT_ODM)/etc/camera/AIGesture/buling_3s.png \
@@ -167,7 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/cameradfx_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameradfx_config.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/cameraopt.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_perf.json \
-    vendor/xiaomi/dada/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/camerascene.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerascene.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/colorsensorfactor.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/colorsensorfactor.xml \
@@ -1152,7 +1155,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomi/miuicamerayuv2heic.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/miuicamerayuv2heic.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomi/miuicamerayuv2jpeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/miuicamerayuv2jpeg.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomi/miviphotographerconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/miviphotographerconfig.json \
-    vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomi/miviprocesstimethreshold.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/miviprocesstimethreshold.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomi/mivisettings.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/mivisettings.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomi/mivistreamformat.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/mivistreamformat.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomi/mivivendorstreamconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/mivivendorstreamconfig.json \
@@ -1287,25 +1289,117 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xiaomismartaeconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomismartaeconfig.json \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xmi_slmt_4x_1080p.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/xmi_slmt_4x_1080p.dlc \
     vendor/xiaomi/dada/proprietary/odm/etc/camera/xmi_slmt_4x_720p.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/xmi_slmt_4x_720p.dlc \
-    vendor/xiaomi/dada/proprietary/odm/etc/display/B_Com_Gary_Gain.csv:$(TARGET_COPY_OUT_ODM)/etc/display/B_Com_Gary_Gain.csv \
-    vendor/xiaomi/dada/proprietary/odm/etc/display/B_Com_Gary_Gain_mdss_dsi_o3_36_02_0b_dsc_cmd.csv:$(TARGET_COPY_OUT_ODM)/etc/display/B_Com_Gary_Gain_mdss_dsi_o3_36_02_0b_dsc_cmd.csv \
-    vendor/xiaomi/dada/proprietary/odm/etc/display/G_Com_Gary_Gain.csv:$(TARGET_COPY_OUT_ODM)/etc/display/G_Com_Gary_Gain.csv \
-    vendor/xiaomi/dada/proprietary/odm/etc/display/G_Com_Gary_Gain_mdss_dsi_o3_36_02_0b_dsc_cmd.csv:$(TARGET_COPY_OUT_ODM)/etc/display/G_Com_Gary_Gain_mdss_dsi_o3_36_02_0b_dsc_cmd.csv \
-    vendor/xiaomi/dada/proprietary/odm/etc/display/R_Com_Gary_Gain.csv:$(TARGET_COPY_OUT_ODM)/etc/display/R_Com_Gary_Gain.csv \
-    vendor/xiaomi/dada/proprietary/odm/etc/display/R_Com_Gary_Gain_mdss_dsi_o3_36_02_0b_dsc_cmd.csv:$(TARGET_COPY_OUT_ODM)/etc/display/R_Com_Gary_Gain_mdss_dsi_o3_36_02_0b_dsc_cmd.csv \
+    vendor/xiaomi/dada/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/cct_pcc.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut1.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut2.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut3.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut4.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut5.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut6.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLut7.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/ClstcLutInfo.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/clstc_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/clstc_gc_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/clstc_igc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/clstc/clstc_igc_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLutInfo.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_1.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_10.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_11.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_12.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_13.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_14.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_15.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_16.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_17.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_18.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_19.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_2.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_20.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_21.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_22.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_23.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_24.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_25.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_26.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_27.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_28.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_28.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_29.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_29.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_3.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_30.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_30.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_31.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_31.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_32.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_32.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_33.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_33.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_34.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_34.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_4.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_5.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_6.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_7.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_8.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/miLut_9.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_1.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_2.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_36_02_0b_dsc_cmd/mi_gc_3.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/cct_pcc.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut1.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut2.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut3.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut4.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut5.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut6.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut7.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLut8.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/ClstcLutInfo.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/clstc_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/clstc_gc_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/clstc_igc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/clstc/clstc_igc_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLutInfo.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLutInfo.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_1.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_10.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_10.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_11.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_11.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_12.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_12.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_13.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_13.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_14.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_14.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_15.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_15.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_16.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_16.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_17.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_17.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_18.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_18.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_19.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_19.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_2.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_20.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_20.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_21.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_21.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_22.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_22.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_23.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_23.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_24.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_24.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_25.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_25.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_26.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_26.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_27.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_27.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_28.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_28.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_29.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_29.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_3.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_30.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_30.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_31.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_31.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_32.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_32.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_33.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_33.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_34.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_34.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_4.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_4.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_5.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_5.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_6.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_6.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_7.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_7.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_8.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_8.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_9.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/miLut_9.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_0.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_1.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_1.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_2.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_2.txt \
+    vendor/xiaomi/dada/proprietary/odm/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o3_42_0d_0a_dsc_cmd/mi_gc_3.txt \
     vendor/xiaomi/dada/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o3_36_02_0b_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o3_36_02_0b_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/dada/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o3_42_0d_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o3_42_0d_0a_cmd_mode_dsc_dsi_panel.json \
-    vendor/xiaomi/dada/proprietary/odm/etc/init/android.hardware.security.keymint-service.strongbox-thales.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.security.keymint-service.strongbox-thales.rc \
-    vendor/xiaomi/dada/proprietary/odm/etc/init/android.hardware.weaver-service.thales.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.weaver-service.thales.rc \
-    vendor/xiaomi/dada/proprietary/odm/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.camera.provider-service_64.rc \
-    vendor/xiaomi/dada/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature-service.rc \
-    vendor/xiaomi/dada/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc \
-    vendor/xiaomi/dada/proprietary/odm/etc/izat_device.conf:$(TARGET_COPY_OUT_ODM)/etc/izat_device.conf \
-    vendor/xiaomi/dada/proprietary/odm/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-hal-st.conf \
-    vendor/xiaomi/dada/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/mdss_dsi_o3_36_02_0b_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_o3_36_02_0b_dsc_cmd_mi.xml \
     vendor/xiaomi/dada/proprietary/odm/etc/mdss_dsi_o3_42_0d_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_o3_42_0d_0a_dsc_cmd_mi.xml \
-    vendor/xiaomi/dada/proprietary/odm/etc/permissions/android.hardware.strongbox_keystore-thales.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.strongbox_keystore-thales.xml \
+    vendor/xiaomi/dada/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
     vendor/xiaomi/dada/proprietary/odm/etc/sensors/config/5cm_blue.png:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/5cm_blue.png \
     vendor/xiaomi/dada/proprietary/odm/etc/sensors/config/5cm_gray.png:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/5cm_gray.png \
     vendor/xiaomi/dada/proprietary/odm/etc/sensors/config/5cm_green.png:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/5cm_green.png \
@@ -1389,9 +1483,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/sensors/config/tcs3408.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/tcs3408.json \
     vendor/xiaomi/dada/proprietary/odm/etc/sensors/config/vi5300_tof_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/vi5300_tof_0.json \
     vendor/xiaomi/dada/proprietary/odm/etc/sensors/config/vl53l1_tof_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/vl53l1_tof_0.json \
-    vendor/xiaomi/dada/proprietary/odm/etc/spr_cfg_xiaomi_o3_36_02_0b_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_ODM)/etc/spr_cfg_xiaomi_o3_36_02_0b_cmd_mode_dsc_dsi_panel.xml \
-    vendor/xiaomi/dada/proprietary/odm/etc/spr_cfg_xiaomi_o3_42_0d_0a_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_ODM)/etc/spr_cfg_xiaomi_o3_42_0d_0a_cmd_mode_dsc_dsi_panel.xml \
-    vendor/xiaomi/dada/proprietary/odm/etc/st54l_conf.txt:$(TARGET_COPY_OUT_ODM)/etc/st54l_conf.txt \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-camera.conf \
@@ -1430,7 +1521,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-gl-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-hp-mgame.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-gl-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-hp-normal.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-gl-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-huanji.conf \
-    vendor/xiaomi/dada/proprietary/odm/etc/thermal-gl-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-mgame.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-gl-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-navigation.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-gl-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-nolimits.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-gl-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-gl-normal.conf \
@@ -1454,7 +1544,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-ind-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-ind-hp-mgame.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-ind-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-ind-hp-normal.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-ind-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-ind-huanji.conf \
-    vendor/xiaomi/dada/proprietary/odm/etc/thermal-ind-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-ind-mgame.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-ind-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-ind-navigation.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-ind-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-ind-nolimits.conf \
     vendor/xiaomi/dada/proprietary/odm/etc/thermal-ind-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-ind-normal.conf \
@@ -1482,59 +1571,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/etc/touch/dynamicrate.json:$(TARGET_COPY_OUT_ODM)/etc/touch/dynamicrate.json \
     vendor/xiaomi/dada/proprietary/odm/etc/touch/gameturbotool-fastinput.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-fastinput.json \
     vendor/xiaomi/dada/proprietary/odm/etc/touch/gameturbotool.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool.json \
-    vendor/xiaomi/dada/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/xiaomi/dada/proprietary/odm/firmware/B-cs35l43-delta-music-spk-prot.bin:$(TARGET_COPY_OUT_ODM)/firmware/B-cs35l43-delta-music-spk-prot.bin \
     vendor/xiaomi/dada/proprietary/odm/firmware/B-cs35l43-delta-voice-spk-prot.bin:$(TARGET_COPY_OUT_ODM)/firmware/B-cs35l43-delta-voice-spk-prot.bin \
     vendor/xiaomi/dada/proprietary/odm/firmware/B-cs35l43-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_ODM)/firmware/B-cs35l43-dsp1-spk-prot.bin \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b00 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b01 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b02 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b03:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b03 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b04:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b04 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b05:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b05 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b06:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b06 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b07:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b07 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b08:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b08 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b09:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b09 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b10:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b10 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b11:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b11 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b12:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b12 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b13:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b13 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b14:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b14 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b15:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b15 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b16:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b16 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b17:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b17 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b18:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b18 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b19:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b19 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b20 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.elf \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.mbn \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.mdt \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b00:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b00 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b01:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b01 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b02:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b02 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b03:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b03 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b04:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b04 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b05:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b05 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b06:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b06 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b07:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b07 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b08:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b08 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b09:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b09 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b10:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b10 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b11:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b11 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b12:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b12 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b13:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b13 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b14:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b14 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b15:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b15 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b16:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b16 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b17:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b17 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b18:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b18 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b19:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b19 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.b20:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.b20 \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.elf:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.elf \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.mbn:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.mbn \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_1.mdt:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_1.mdt \
-    vendor/xiaomi/dada/proprietary/odm/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP_170.elf \
     vendor/xiaomi/dada/proprietary/odm/firmware/T-cs35l43-delta-music-spk-prot.bin:$(TARGET_COPY_OUT_ODM)/firmware/T-cs35l43-delta-music-spk-prot.bin \
     vendor/xiaomi/dada/proprietary/odm/firmware/T-cs35l43-delta-voice-spk-prot.bin:$(TARGET_COPY_OUT_ODM)/firmware/T-cs35l43-delta-voice-spk-prot.bin \
     vendor/xiaomi/dada/proprietary/odm/firmware/T-cs35l43-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_ODM)/firmware/T-cs35l43-dsp1-spk-prot.bin \
@@ -1553,10 +1592,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/firmware/dada_sunny_s5kjn5_bu24619_tele3x_i_ois_lsm6dsv.prog:$(TARGET_COPY_OUT_ODM)/firmware/dada_sunny_s5kjn5_bu24619_tele3x_i_ois_lsm6dsv.prog \
     vendor/xiaomi/dada/proprietary/odm/firmware/dada_syna_thp_config_00.ini:$(TARGET_COPY_OUT_ODM)/firmware/dada_syna_thp_config_00.ini \
     vendor/xiaomi/dada/proprietary/odm/firmware/dada_syna_thp_config_01.ini:$(TARGET_COPY_OUT_ODM)/firmware/dada_syna_thp_config_01.ini \
+    vendor/xiaomi/dada/proprietary/odm/firmware/dada_test_limits_S3910P_00.csv:$(TARGET_COPY_OUT_ODM)/firmware/dada_test_limits_S3910P_00.csv \
+    vendor/xiaomi/dada/proprietary/odm/firmware/dada_test_limits_S3910P_01.csv:$(TARGET_COPY_OUT_ODM)/firmware/dada_test_limits_S3910P_01.csv \
     vendor/xiaomi/dada/proprietary/odm/firmware/film_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/film_model.tflite \
     vendor/xiaomi/dada/proprietary/odm/firmware/glove_model.tflite:$(TARGET_COPY_OUT_ODM)/firmware/glove_model.tflite \
     vendor/xiaomi/dada/proprietary/odm/firmware/smooth.tflite:$(TARGET_COPY_OUT_ODM)/firmware/smooth.tflite \
-    vendor/xiaomi/dada/proprietary/odm/firmware/st54l_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/st54l_fw.bin \
     vendor/xiaomi/dada/proprietary/odm/firmware/synaptics_spi_dada_00.img:$(TARGET_COPY_OUT_ODM)/firmware/synaptics_spi_dada_00.img \
     vendor/xiaomi/dada/proprietary/odm/firmware/synaptics_spi_dada_01.img:$(TARGET_COPY_OUT_ODM)/firmware/synaptics_spi_dada_01.img \
     vendor/xiaomi/dada/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
@@ -1739,21 +1779,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.sensormodule.qti_tpg2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qti_tpg2.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.sensorsocmap.socid_map.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensorsocmap.socid_map.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_ov32b40_front_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_ov32b40_front_ii.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_ov32b40_front_ii_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_ov32b40_front_ii_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_ovx9100_wide_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_ovx9100_wide_i.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_ovx9100_wide_i_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_ovx9100_wide_i_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn1_ultra_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn1_ultra_ii.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn1_ultra_ii_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn1_ultra_ii_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn5_tele3x_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn5_tele3x_ii.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn5_tele3x_ii_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_ofilm_s5kjn5_tele3x_ii_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_ov32b40_front_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_ov32b40_front_i.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_ov32b40_front_i_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_ov32b40_front_i_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_ovx9100_wide_ii.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_ovx9100_wide_ii.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_ovx9100_wide_ii_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_ovx9100_wide_ii_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_s5kjn1_ultra_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_s5kjn1_ultra_i.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_s5kjn1_ultra_i_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_s5kjn1_ultra_i_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_s5kjn5_tele3x_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_s5kjn5_tele3x_i.bin \
-    vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.dada_sunny_s5kjn5_tele3x_i_cn.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.dada_sunny_s5kjn5_tele3x_i_cn.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.default.sun.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.default.sun.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/com.qti.tuned.tpg.sun.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.tpg.sun.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/camera/fdconfigoffline.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigoffline.bin \
@@ -1781,69 +1813,69 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dada/proprietary/odm/lib64/qsn1rtlp43270.bin:$(TARGET_COPY_OUT_ODM)/lib64/qsn1rtlp43270.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/qsn2all.bin:$(TARGET_COPY_OUT_ODM)/lib64/qsn2all.bin \
     vendor/xiaomi/dada/proprietary/odm/lib64/qsn3all.bin:$(TARGET_COPY_OUT_ODM)/lib64/qsn3all.bin \
-    vendor/xiaomi/dada/proprietary/odm/mitee/ta/655a4b46-cd77-11ea-aafbf382a6988e7b.ta:$(TARGET_COPY_OUT_ODM)/mitee/ta/655a4b46-cd77-11ea-aafbf382a6988e7b.ta \
-    vendor/xiaomi/dada/proprietary/odm/mitee/ta/66147267-5b44-4aa3-bd734138c7fab03a.ta:$(TARGET_COPY_OUT_ODM)/mitee/ta/66147267-5b44-4aa3-bd734138c7fab03a.ta \
-    vendor/xiaomi/dada/proprietary/odm/mitee/ta/69e4f326-d5cd-e780-3987619f04784525.ta:$(TARGET_COPY_OUT_ODM)/mitee/ta/69e4f326-d5cd-e780-3987619f04784525.ta \
-    vendor/xiaomi/dada/proprietary/odm/mitee/ta/a13339be-7082-4d2d-bf83a53e4687a635.ta:$(TARGET_COPY_OUT_ODM)/mitee/ta/a13339be-7082-4d2d-bf83a53e4687a635.ta \
-    vendor/xiaomi/dada/proprietary/odm/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta:$(TARGET_COPY_OUT_ODM)/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta \
+    vendor/xiaomi/dada/proprietary/odm/vendor/etc/videoCodecCapability.json:$(TARGET_COPY_OUT_ODM)/vendor/etc/videoCodecCapability.json \
+    vendor/xiaomi/dada/proprietary/odm/vendor/etc/videobox.json:$(TARGET_COPY_OUT_ODM)/vendor/etc/videobox.json \
+    vendor/xiaomi/dada/proprietary/product/etc/displayconfig/common_multi_factor_thermal_brightness_control.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/common_multi_factor_thermal_brightness_control.xml \
     vendor/xiaomi/dada/proprietary/product/etc/displayconfig/display_id_4630946682710401939.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630946682710401939.xml \
     vendor/xiaomi/dada/proprietary/product/etc/displayconfig/display_id_4630947212918452371.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630947212918452371.xml \
+    vendor/xiaomi/dada/proprietary/product/etc/displayconfig/multi_factor_thermal_brightness_control.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/multi_factor_thermal_brightness_control.xml \
+    vendor/xiaomi/dada/proprietary/product/etc/displayconfig/rhythmic_app_category_list_backup.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/rhythmic_app_category_list_backup.xml \
     vendor/xiaomi/dada/proprietary/vendor/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_perf.json \
     vendor/xiaomi/dada/proprietary/vendor/etc/camera/cameraopt_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_vendor.json \
-    vendor/xiaomi/dada/proprietary/vendor/etc/hal_uuid_map_dada.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_dada.xml \
-    vendor/xiaomi/dada/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
-    vendor/xiaomi/dada/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
-    vendor/xiaomi/dada/proprietary/vendor/etc/media_profiles_sun.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_sun.xml \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/effect_0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_0.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/effect_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_1.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/effect_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_2.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/effect_3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_3.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/effect_4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_4.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/effect_5.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_5.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/primitive_effect_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_1.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/primitive_effect_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_2.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/primitive_effect_7.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_7.bin \
-    vendor/xiaomi/dada/proprietary/vendor/etc/vibrator/primitive_effect_8.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_8.bin
+    vendor/xiaomi/dada/proprietary/vendor/etc/displayconfig/display_id_4630946916234099603.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946916234099603.xml \
+    vendor/xiaomi/dada/proprietary/vendor/etc/displayconfig/display_id_4630947039571902850.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947039571902850.xml \
+    vendor/xiaomi/dada/proprietary/vendor/etc/displayconfig/display_id_4630947039571902851.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947039571902851.xml \
+    vendor/xiaomi/dada/proprietary/vendor/etc/displayconfig/display_id_4630947075271898515.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947075271898515.xml \
+    vendor/xiaomi/dada/proprietary/vendor/etc/displayconfig/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.camera.common-V1-ndk_prebuilt \
-    android.hardware.camera.device-V2-ndk_prebuilt \
-    android.hardware.camera.metadata-V2-ndk_prebuilt \
-    android.hardware.camera.provider-V2-ndk_prebuilt \
-    android.hardware.graphics.common-V5-ndk_prebuilt \
-    libSEGModel \
-    lib_android_keymaster_keymint_utils_prebuilt \
+    libSNPESample \
+    libcamera2ndk_vendor \
     libcameraobserver \
     libcameraopt \
-    libcppbor_external_prebuilt \
-    libcppbor_prebuilt \
-    libcppcose_rkp_prebuilt \
-    libimage_io_prebuilt \
-    libjpegdecoder_prebuilt \
-    libjpegencoder_prebuilt \
-    libkcl_a730 \
-    libkeymaster_messages_prebuilt \
-    libkeymaster_portable_prebuilt \
+    libjpegdecoder_dada \
+    libjpegencoder_dada \
+    libmialgo \
+    libopencl_loader \
     libopencv_core \
-    libopencv_core_se \
     libopencv_imgproc \
-    libopencv_imgproc_se \
-    libsi \
-    libsoft_attestation_cert_prebuilt \
-    libultrahdr_prebuilt \
-    vendor.qti.hardware.camera.offlinecamera-V2-ndk_prebuilt \
-    vendor.qti.hardware.fingerprint-V1-ndk \
-    vendor.xiaomi.hardware.aek-V1-ndk \
+    libultrahdr_dada \
+    libVppAisQnnHtp \
+    libVppFrcQnnHtp \
+    libdpp_engine_skel \
+    libdspCV_skel \
+    libevadsp \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libmobilenet_dsp_frc \
+    libmobilenet_dsp_frc_networks \
+    libnsp_ipc_cdsp_skel \
+    libnspextensionsuperresolutionprovider \
+    libscveT2T_skel \
+    libvpp_ais \
+    libvpp_ais_networks \
+    libvpp_frc \
+    libvpp_gfrc_networks \
+    libvpp_svc_skel \
+    libvpp_vqa_networks \
+    libvpt_action_recognition \
+    libworker_pool \
+    vendor.xiaomi.hardware.aidl.intentaware-V1-ndk_platform \
     vendor.xiaomi.hardware.aon-V1-ndk \
     vendor.xiaomi.hardware.camera.injection-V1-ndk \
     vendor.xiaomi.hardware.camera.injection-client \
     vendor.xiaomi.hardware.camera.injection-service \
     vendor.xiaomi.hardware.camera.synthetic-V1-ndk \
     vendor.xiaomi.hardware.camera.synthetic-impl \
-    vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
-    vendor.xiaomi.hw.touchfeature-V1-ndk \
-    vendor.xiaomi.sensor.citsensorservice-V1-ndk \
-    xiaomi.system.hypsys.common-V1-ndk \
+    vendor.xiaomi.sensor.camera-V1-ndk \
+    vendor_lib_rfsa_adsp_activity_napp_header \
+    vendor_lib_rfsa_adsp_activity_so \
+    vendor_lib_rfsa_adsp_chre_qsh_shim_so \
+    vendor_lib_rfsa_adsp_libDspIOProxy_skel_so \
+    vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so \
+    vendor_lib_rfsa_adsp_libtracker_6dof_skel_8450_so \
+    vendor_lib_rfsa_adsp_nearby_napp_header \
+    vendor_lib_rfsa_adsp_nearby_so \
     com.qti.actuator.dada_ofilm_ovx9100_ak7316_wide_i_actuator \
     com.qti.actuator.dada_ofilm_s5kjn5_gt9764v_tele3x_ii_actuator \
     com.qti.actuator.dada_sunny_ovx9100_ak7316_wide_ii_actuator \
@@ -2024,7 +2056,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.offlinemlawb \
     com.xiaomi.plugin.offlinetintless \
     com.xiaomi.plugin.offlinetintlesshdr \
-    com.xiaomi.plugin.offlineyuveis \
     com.xiaomi.plugin.offlineyuvreprocess \
     com.xiaomi.plugin.offlineyuvsplit \
     com.xiaomi.plugin.pixman \
@@ -2058,6 +2089,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.zsl.single \
     com.xiaomi.zsl.sr \
     camx.device-impl \
+    camx.provider-impl \
     com.qti.camx.chiiqutils \
     com.qti.chifeaturecompatibility \
     com.qti.chiusecaseselector \
@@ -2107,6 +2139,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.camhal.extmodel.catch_log_sys \
     com.xiaomi.camhal.extmodel.ec_diag_sys \
     com.xiaomi.camhal.extmodel.ec_executor \
+    com.xiaomi.camhal.extmodel.intent_aware_sys \
     com.xiaomi.camhal.overlap \
     com.xiaomi.camhal.submodel.camxfrag \
     com.xiaomi.camhal.submodel.chifrag \
@@ -2120,7 +2153,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.immunesystem.hook.mtkhal \
     com.xiaomi.messagecenter \
     com.xiaomi.plugin.ecdengine \
-    ese_weaver_thales \
     camera.qcom.sm8750 \
     camera.qcom \
     com.qti.chi.offline \
@@ -2142,19 +2174,15 @@ PRODUCT_PACKAGES += \
     libMiPhotoFilter \
     libMiStereoFactoryCalibAnalyzeBin_qual \
     libPanShotPostProcess \
-    libQnnCpu \
-    libQnnGpu \
-    libQnnHtp \
-    libQnnHtpPrepare \
-    libQnnHtpV79Stub \
-    libQnnSaver \
-    libQnnSystem \
+    libPlatformValidatorShared \
     libSNPE \
     libSnpeHta \
     libSnpeHtpPrepare \
+    libSnpeHtpV79CalculatorStub \
     libSnpeHtpV79Stub \
     libTrueSight \
     libaidenoiser \
+    libaidenoiserv2 \
     libailab_rawhdr \
     libanc_edof \
     libanc_edof_checker \
@@ -2173,6 +2201,7 @@ PRODUCT_PACKAGES += \
     libbitmlengine \
     libbitmlenginev2 \
     libc++_shared \
+    libcalculator \
     libcamera_scene \
     libcameraheif \
     libcamlog \
@@ -2200,7 +2229,6 @@ PRODUCT_PACKAGES += \
     libchilog \
     libchinodeevautils \
     libchinodehmeutils \
-    libclient2slpi.notifier \
     libcom.qti.chinodeutils \
     libcom.xiaomi.attribute \
     libcom.xiaomi.debug \
@@ -2217,7 +2245,7 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.sensorpolicy \
     libcom.xiaomi.signaltrigger \
     libcommonchiutils \
-    libcrussp \
+    libdeflicker \
     libdlrmsc_android15 \
     libecdpreproc \
     libecoengine \
@@ -2226,9 +2254,7 @@ PRODUCT_PACKAGES += \
     libfuai_camera_alg \
     libgf_hal \
     libhandgesture.arcsoft \
-    libharbo \
     libhdr10plus \
-    libhdr_stub \
     libheichal \
     libhme \
     libhta_hexagon_runtime_snpe \
@@ -2240,9 +2266,6 @@ PRODUCT_PACKAGES += \
     libipebpsstriping480 \
     libiqdbgmgr \
     libisphwsetting \
-    libjc_keymint-thales \
-    libjc_keymint_transport-thales \
-    libjc_weaver_transport \
     libjpege \
     libmctfengine_stub \
     libmfGhostDetection \
@@ -2254,7 +2277,9 @@ PRODUCT_PACKAGES += \
     libmi_aialign_raw \
     libmi_computationalOptics_def \
     libmi_hdr_raw \
+    libmi_mfnr_raw \
     libmi_supernight_raw \
+    libmiaio_aio_inst_seg \
     libmiaio_aio_seg \
     libmiaio_det_sceneseg \
     libmiaio_head_seg \
@@ -2262,17 +2287,21 @@ PRODUCT_PACKAGES += \
     libmialgo_aideban \
     libmialgo_aihighlight \
     libmialgo_ainr_ll \
+    libmialgo_aio_seg \
     libmialgo_aisn \
     libmialgo_aisn_common \
     libmialgo_aisp \
     libmialgo_bokeh_depth \
     libmialgo_cls \
+    libmialgo_depth \
+    libmialgo_ds_nn \
     libmialgo_ellc \
     libmialgo_ie_capture \
     libmialgo_sd \
     libmialgo_sdsr \
     libmialgo_snsc \
     libmialgo_utils \
+    libmialgoai_align_sr_shared \
     libmialgoengine \
     libmialgoengine_custom \
     libmicamGlobalPool \
@@ -2283,7 +2312,6 @@ PRODUCT_PACKAGES += \
     libmicamera_fps_checker \
     libmicamera_hal_core \
     libmicamera_hal_policy \
-    libmiface \
     libminikin.xiaomi \
     libmiocr \
     libmiphone_capture_bokeh \
@@ -2296,6 +2324,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_bestats \
     libmmcamera_cac \
     libmmcamera_lscv35 \
+    libmmcamera_mfnr \
+    libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmmfp \
     libmorpho_Depurple \
@@ -2312,7 +2342,6 @@ PRODUCT_PACKAGES += \
     libpostprocinfo \
     libproj_qmot_tracker \
     libproj_sot \
-    libqc_hal \
     libqfdadapter \
     libqfdservice \
     libqll \
@@ -2330,17 +2359,12 @@ PRODUCT_PACKAGES += \
     libsnpe_config \
     libsupermoon \
     libswregistrationalgo \
-    libteecli \
     libtfestriping \
-    libtouchreport \
-    libtouchreport_alg \
-    libtouchreport_hal \
-    libtouchreport_sensor \
+    libubifocus \
     libvega_common \
     libvideoml \
     libwa_widelens_undistort \
     libxmi_slow_motion_mein \
-    mi_weaver \
     libapn_dsp_skel \
     libbitml_nsp_73na_skel \
     libbitml_nsp_79na_skel \
@@ -2349,11 +2373,12 @@ PRODUCT_PACKAGES += \
     libqsegnetengine_dsp_skel \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
-    vendor.qti.qvirt-V1-ndk_odm \
+    vendor.xiaomi.hardware.aidl.intentaware-V1-impl \
     vendor.xiaomi.hardware.aidlbgservice-V1-impl \
     vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
+    vendor.xiaomi.hardware.seccam-V1-ndk \
     odm_lib_rfsa_adsp_libCalculator_skel_so \
     odm_lib_rfsa_adsp_libQnnHtpV79_so \
     odm_lib_rfsa_adsp_libQnnHtpV79Skel_so \
@@ -2377,28 +2402,8 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libmialgo_supernight_capture_cdsp_skel_so \
     odm_lib_rfsa_adsp_libmialgo_tracker_cdsp_skel_so \
     odm_lib_rfsa_adsp_libmlawbpostproc_dsp_skel_so \
-    MiuiCamera \
-    vendor.xiaomi.hardware.dynamiccameraserver.xml \
-    vendor.xiaomi.hardware.quickcamera.xml \
-    android.hardware.biometrics.face-v4.xml \
-    android.hardware.security.keymint-service.strongbox-thales.xml \
-    android.hardware.security.sharedsecret-service.strongbox-thales.xml \
-    android.hardware.weaver-service.thales.xml \
-    vendor.qti.camera.provider.xml \
-    vendor.xiaomi.camera.aon-impl.xml \
-    vendor.xiaomi.hardware.aek.xml \
-    vendor.xiaomi.hardware.aidlbgservice-service.xml \
-    vendor.xiaomi.hw.touchfeature-service.xml \
-    vendor.xiaomi.sensor.citsensorservice.aidl.xml \
-    batterysecret \
-    mi_thermald \
-    android.hardware.security.keymint-service.strongbox-thales \
-    android.hardware.weaver-service.thales \
-    mifaced \
-    vendor.qti.camera.provider-service_64 \
-    vendor.xiaomi.hw.touchfeature-service \
-    vendor.xiaomi.sensor.citsensorservice.aidl \
-    tee-supplicant
+    misensor_camera \
+    vendor.qti.camera.provider-service_64
 
 PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libSnpeHtpV79Skel_so \
@@ -2413,9 +2418,20 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libSNPE_so \
     vendor_lib64_libcamxexternalformatutils_so \
     vendor_lib64_qsn1nrt430_bin \
+    vendor_lib64_qsn1nrt43180_bin \
     vendor_lib64_qsn1nrt43270_bin \
+    vendor_lib64_qsn1nrt4390_bin \
+    vendor_lib64_qsn1rt1690_bin \
+    vendor_lib64_qsn1rt169180_bin \
+    vendor_lib64_qsn1rt169270_bin \
+    vendor_lib64_qsn1rt16990_bin \
+    vendor_lib64_qsn1rt430_bin \
+    vendor_lib64_qsn1rt43180_bin \
+    vendor_lib64_qsn1rt43270_bin \
+    vendor_lib64_qsn1rt4390_bin \
+    vendor_lib64_qsn1rtlp1690_bin \
+    vendor_lib64_qsn1rtlp169270_bin \
+    vendor_lib64_qsn1rtlp430_bin \
+    vendor_lib64_qsn1rtlp43270_bin \
     vendor_lib64_qsn2all_bin \
-    vendor_lib64_qsn3all_bin \
-    vendor_lib64_rfs_dsp_libbitml_nsp_73na_skel_so \
-    vendor_lib64_rfs_dsp_libbitml_nsp_79na_skel_so \
-    vendor_lib64_rfs_dsp_libqsegnetengine_dsp_skel_so
+    vendor_lib64_qsn3all_bin

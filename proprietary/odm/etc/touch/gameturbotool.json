@@ -21,7 +21,7 @@
 
     "SUPER ALGO": {
         "MODE":10003,
-        "ALL_DEFAULT_ENABLE":true,
+        "ALL_DEFAULT_ENABLE":false,
         "DEFAULT":true,
         "APP":[
         ],
